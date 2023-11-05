@@ -1,0 +1,66 @@
+/* the props */
+@import 'https://unpkg.com/open-props';
+
+/* optional imports that use the props */
+@import 'https://unpkg.com/open-props/normalize.min.css';
+@import 'https://unpkg.com/open-props/buttons.min.css';
+
+::root {
+  --i: hsl(180, 50%, 50%);
+  --o: hsl(60, 50%, 50%);
+  --t: hsl(300, 50%, 50%);
+  --j: hsl(240, 50%, 50%);
+  --l: hsl(30, 50%, 50%);
+  --s: hsl(120, 50%, 50%);
+  --z: hsl(0, 50%, 50%);
+}
+
+body {
+    margin: auto;
+}
+
+main {
+  display: flex;
+  max-width: 20rem;
+  justify-content: space-evenly;
+  border: 1px groove gray;
+}
+
+#field {
+    display: flex;
+    flex-direction: column;
+}
+
+.square {
+  height: 1rem;
+  width: 1rem;
+  border: 1px groove gray;
+}
+
+.i {
+    background-color: cyan;
+}
+.o {
+    background-color: yellow;
+}
+.t {
+    background-color: pink;
+}
+.j {
+    background-color: blue;
+}
+.l {
+    background-color: orange;
+}
+.s {
+    background-color: green;
+}
+.z {
+    background-color: red;
+}
+.row {
+    display: flex;
+}
+.row-0 {
+    display: none;
+}
